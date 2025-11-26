@@ -14,7 +14,7 @@ body {
     border: 2px solid #FDF8E2;
 }
 
-header.header-container {
+header {
     display: flex;
     align-items: center;
     justify-content: center;
