@@ -1,7 +1,7 @@
 angela.github.io/
-│
-├─ docs/
-│   ├─ index.html   ← your main HTML file
-│   └─ style.css    ← your CSS file
-│
-└─ README.md
+
+  docs/
+       index.html   
+       style.css    
+
+  README.md
