@@ -7,7 +7,7 @@ body {
 .notebook {
     max-width: 800px;
     margin: 30px auto;
-    background: light pink;
+    background: lightpink;
     padding: 20px 40px;
     border-radius: 15px;
     box-shadow: 0px 4px 20px rgba(0,0,0,0.1);
@@ -51,42 +51,4 @@ header {
     background: rgba(255,255,255,0.8);
     padding: 20px;
     margin: 30px 0;
-    border-left: 8px solid #e2c7a4;
-    border-radius: 8px;
-}
-
-h2 {
-    font-family: 'Playfair Display', serif;
-    color: #d86c8b;
-    margin-bottom: 10px;
-}
-
-.project {
-    background: #f7f2e7;
-    padding: 15px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    border-left: 5px solid #9cc5a1;
-}
-
-.animated {
-    opacity: 0;
-    animation-duration: 1.2s;
-    animation-fill-mode: forwards;
-}
-
-.fade {
-    animation-name: fadeIn;
-}
-
-.slide {
-    animation-name: slideUp;
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-@keyframes slideUp {
-    from { opacity: 0; transfo
+    border
