@@ -9,19 +9,24 @@
 <body>
 
 <nav>
-    <a href="#about">Home</a>
+    <a href="#home">Home</a>
+    <a href="#about">About Me</a>
     <a href="#skills">Skills</a>
-    <a href="#contact">Contact</a>
+    <a href="#contact">Contact Me</a>
 </nav>
 
-<section id="about" class="full-section fade-in">
-    <img src="profile.jpg" alt="Angela" class="profile-photo">
-    <h1>Hi, I'm Angela</h1>
-    <p>IT Student | Aspiring Professional | Creative Individual</p>
-    <p>Hello! My name is Angela Lorraine C. Samonte and I am an 18-year-old first-year student. I am currently studying Bachelor of Science in Information Technology with Specialization in Cisco Networking. I love learning, creating, and exploring new ideas!</p>
+<section id="home" class="full-section fade-in-home">
+    <h1>Hello, I'm Angela!</h1>
+    <p>Welcome to my digital portfolio.</p>
 </section>
 
-<section id="skills" class="full-section fade-in">
+<section id="about" class="full-section fade-in-left">
+    <img src="profile.jpg" alt="Angela" class="profile-photo">
+    <h2>About Me</h2>
+    <p>I'm Angela Lorraine C. Samonte, an 18-year-old first-year IT student specializing in Cisco Networking. I love learning, creating, and exploring new ideas!</p>
+</section>
+
+<section id="skills" class="full-section fade-in-right">
     <h2>Skills</h2>
     <div class="skills-container">
         <div class="skill-group">
@@ -31,7 +36,7 @@
                 <li>Internet Navigation</li>
                 <li>Computer Literacy</li>
                 <li>Internet and Web Browsing</li>
-                <li>Basic Usage of Word, Excel, and PowerPoint</li>
+                <li>Basic Word, Excel, and PowerPoint</li>
                 <li>Basic File and Data Management</li>
             </ul>
         </div>
@@ -49,14 +54,14 @@
     </div>
 </section>
 
-<section id="contact" class="full-section fade-in">
+<section id="contact" class="full-section fade-in-bottom">
     <h2>Contact Me</h2>
     <p>Email: <a href="mailto:angelalorrainesamonte837@gmail.com">angelalorrainesamonte837@gmail.com</a></p>
     <p>Facebook: <a href="https://www.facebook.com/angela.lorraine.samonte" target="_blank">facebook.com/angela.lorraine.samonte</a></p>
 </section>
 
 <script>
-    const sections = document.querySelectorAll('.fade-in');
+    const sections = document.querySelectorAll('.fade-in-home, .fade-in-left, .fade-in-right, .fade-in-bottom');
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
             if(entry.isIntersecting){
